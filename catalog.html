@@ -1,70 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catálogo de Óculos</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo de Óculos</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!-- AOS (Animate On Scroll) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"/>
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Seu CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body { font-family: 'Montserrat', Arial, sans-serif; }
+  </style>
 </head>
-<body>
-    <header>
-        <h1>Catálogo de Óculos</h1>
-    </header>
-    <main>
-        <div id="gallery" role="img" aria-label="Gallery of glasses">
-            <img src="oculos1.jpg" alt="Óculos" />
-            <img src="oculos2.jpg" alt="Óculos" />
-            <img src="oculos3.jpg" alt="Óculos" />
-            <img src="oculos4.jpg" alt="Óculos" />
-            <img src="oculos5.jpg" alt="Óculos" />
-            <img src="oculos6.jpg" alt="Óculos" />
-            <img src="oculos7.jpg" alt="Óculos" />
-            <img src="oculos8.jpg" alt="Óculos" />
-            <img src="oculos9.jpg" alt="Óculos" />
-            <img src="oculos10.jpg" alt="Óculos" />
-            <img src="oculos11.jpg" alt="Óculos" />
-            <img src="oculos12.jpg" alt="Óculos" />
-            <img src="oculos13.jpg" alt="Óculos" />
-            <img src="oculos14.jpg" alt="Óculos" />
-            <img src="oculos15.jpg" alt="Óculos" />
-            <img src="oculos16.jpg" alt="Óculos" />
-            <img src="oculos17.jpg" alt="Óculos" />
-            <img src="oculos18.jpg" alt="Óculos" />
-            <img src="oculos19.jpg" alt="Óculos" />
-            <img src="oculos20.jpg" alt="Óculos" />
-            <img src="oculos21.jpg" alt="Óculos" />
-            <img src="oculos22.jpg" alt="Óculos" />
-            <img src="oculos23.jpg" alt="Óculos" />
-            <img src="oculos24.jpg" alt="Óculos" />
-            <img src="oculos25.jpg" alt="Óculos" />
-            <img src="oculos26.jpg" alt="Óculos" />
-            <img src="oculos27.jpg" alt="Óculos" />
-            <img src="oculos28.jpg" alt="Óculos" />
-            <img src="oculos29.jpg" alt="Óculos" />
-            <img src="oculos30.jpg" alt="Óculos" />
-            <img src="oculos31.jpg" alt="Óculos" />
-            <img src="oculos32.jpg" alt="Óculos" />
-            <img src="oculos33.jpg" alt="Óculos" />
-            <img src="oculos34.jpg" alt="Óculos" />
-            <img src="oculos35.jpg" alt="Óculos" />
-             <img src="oculos36.jpg" alt="Óculos" />
-             <img src="oculos37.jpg" alt="Óculos" />
-             <img src="oculos38.jpg" alt="Óculos" />
-             <img src="oculos39.jpg" alt="Óculos" />
-             <img src="oculos00.jpg" alt="Óculos" />
+<body class="bg-light">
+  <header class="bg-white shadow-sm py-4 mb-4">
+    <div class="container">
+      <h1 class="text-center text-primary fw-bold animate__animated animate__fadeInDown">Catálogo de Óculos</h1>
+    </div>
+  </header>
+  <main class="container mb-5">
+    <input type="search" id="busca" class="form-control mb-4" placeholder="Buscar óculos..." aria-label="Buscar óculos">
+    <div id="gallery" class="row g-4" aria-label="Galeria de óculos"></div>
+  </main>
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Catálogo de Produtos</h2>
+    <div id="catalogo-produtos" class="row g-4"></div>
+  </div>
+  <nav class="container mb-4 text-center">
+    <a href="index.html" class="btn btn-primary"><i class="bi bi-arrow-left"></i> Voltar para a Página Inicial</a>
+  </nav>
+  <div class="footer-video-wrapper position-relative" style="height: 260px; overflow: hidden;">
+    <video class="footer-video position-absolute top-0 start-0 w-100 h-100 object-fit-cover" autoplay loop muted playsinline>
+      <source src="videos/seuvideo.mp4" type="video/mp4">
+      Seu navegador não suporta vídeo HTML5.
+    </video>
+    <div class="footer-overlay position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0,0,0,0.45);"></div>
+    <div class="footer-content position-absolute bottom-0 start-0 w-100 text-center text-white py-3">
+      <p class="mb-1">
+        <a href="https://facebook.com/share/12BZrhqTGkq/" target="_blank" rel="noopener" class="text-white me-2"><i class="fab fa-facebook"></i> Facebook</a> | 
+        <a href="https://www.instagram.com/abarmacoes?igsh=MTRldHRrN210NHlmcA==" target="_blank" rel="noopener" class="text-white mx-2"><i class="fab fa-instagram"></i> Instagram</a> | 
+        <a href="https://wa.me/555189059547" target="_blank" rel="noopener" class="text-white ms-2"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      </p>
+    </div>
+  </div>
+  <!-- Frameworks JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <!-- Seu JS -->
+  <script src="catalog.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+fetch('produtos.json')
+  .then(response => response.json())
+  .then(produtos => {
+    const container = document.getElementById('catalogo-produtos');
+    container.innerHTML = produtos.map(produto => `
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100 shadow-sm">
+          <img src="${produto.imagem}" class="card-img-top" alt="${produto.nome}" loading="lazy">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">${produto.nome}</h5>
+            <p class="card-text">${produto.descricao}</p>
+            <div class="mt-auto">
+              <span class="fw-bold text-primary">${produto.preco}</span>
+            </div>
+          </div>
         </div>
-    </main>
-<nav>
-    <a href="index.html" class="button">Voltar para a Página Inicial</a>
-</nav>
-<footer>
-    <p>Links: 
-        <a href="https://facebook.com/share/12BZrhqTGkq/" target="_blank" rel="noopener">Facebook</a> | 
-        <a href="https://www.instagram.com/abarmacoes?igsh=MTRldHRrN210NHlmcA==" target="_blank" rel="noopener">Instagram</a> | 
-        <a href="https://wa.me/555189059547" target="_blank" rel="noopener">WhatsApp</a>
-    </p>
-</footer>
-    <script>
-    </script>
+      </div>
+    `).join('');
+  })
+  .catch(() => {
+    document.getElementById('catalogo-produtos').innerHTML = '<p class="text-danger">Não foi possível carregar os produtos.</p>';
+  });
+</script>
 </body>
 </html>

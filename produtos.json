@@ -1,0 +1,72 @@
+[
+  {
+    "nome": "Óculos Moderno",
+    "imagem": "images/oculos1.jpg",
+    "descricao": "Armação leve, design elegante.",
+    "preco": "R$ 299,00",
+    "categoria": "moderno"
+  },
+  {
+    "nome": "Óculos Clássico",
+    "imagem": "images/oculos2.jpg",
+    "descricao": "Estilo tradicional, conforto garantido.",
+    "preco": "R$ 259,00",
+    "categoria": "classico"
+  },
+  {
+    "nome": "Óculos Retrô",
+    "imagem": "images/oculos3.jpg",
+    "descricao": "Visual vintage com toque contemporâneo.",
+    "preco": "R$ 319,00",
+    "categoria": "retro"
+  },
+  {
+    "nome": "Óculos Esportivo",
+    "imagem": "images/oculos4.jpg",
+    "descricao": "Ideal para atividades ao ar livre e esportes.",
+    "preco": "R$ 279,00",
+    "categoria": "esportivo"
+  },
+  {
+    "nome": "Óculos Fashion",
+    "imagem": "images/oculos5.jpg",
+    "descricao": "Design fashion para quem gosta de ousar.",
+    "preco": "R$ 349,00",
+    "categoria": "fashion"
+  },
+  {
+    "nome": "Óculos Infantil",
+    "imagem": "images/oculos6.jpg",
+    "descricao": "Conforto e segurança para os pequenos.",
+    "preco": "R$ 199,00",
+    "categoria": "infantil"
+  },
+  {
+    "nome": "Óculos Solar",
+    "imagem": "images/oculos7.jpg",
+    "descricao": "Proteção solar com muito estilo.",
+    "preco": "R$ 279,00",
+    "categoria": "solar"
+  },
+  {
+    "nome": "Óculos Premium",
+    "imagem": "images/oculos8.jpg",
+    "descricao": "Linha premium para quem exige o melhor.",
+    "preco": "R$ 499,00",
+    "categoria": "premium"
+  },
+  {
+    "nome": "Óculos Casual",
+    "imagem": "images/oculos9.jpg",
+    "descricao": "Perfeito para o dia a dia.",
+    "preco": "R$ 229,00",
+    "categoria": "casual"
+  },
+  {
+    "nome": "Óculos Elegante",
+    "imagem": "images/oculos10.jpg",
+    "descricao": "Elegância e sofisticação em cada detalhe.",
+    "preco": "R$ 399,00",
+    "categoria": "elegante"
+  }
+]
