@@ -28,63 +28,27 @@
       <h1 class="text-center text-primary fw-bold animate__animated animate__fadeInDown">Catálogo de Óculos</h1>
     </div>
   </header>
-  <main class="container mb-5">
-    <input type="search" id="busca" class="form-control mb-4" placeholder="Buscar óculos..." aria-label="Buscar óculos">
+  <main class="container my-4">
+    <!-- Campo de busca será inserido via JS -->
     <div id="gallery" class="row g-4" aria-label="Galeria de óculos"></div>
   </main>
-  <div class="container my-5">
-    <h2 class="text-center mb-4">Catálogo de Produtos</h2>
-    <div id="catalogo-produtos" class="row g-4"></div>
-  </div>
   <nav class="container mb-4 text-center">
     <a href="index.html" class="btn btn-primary"><i class="bi bi-arrow-left"></i> Voltar para a Página Inicial</a>
   </nav>
-  <div class="footer-video-wrapper position-relative" style="height: 260px; overflow: hidden;">
-    <video class="footer-video position-absolute top-0 start-0 w-100 h-100 object-fit-cover" autoplay loop muted playsinline>
-      <source src="videos/seuvideo.mp4" type="video/mp4">
-      Seu navegador não suporta vídeo HTML5.
-    </video>
-    <div class="footer-overlay position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0,0,0,0.45);"></div>
-    <div class="footer-content position-absolute bottom-0 start-0 w-100 text-center text-white py-3">
+  <footer>
+    <div class="footer-content text-center text-white py-3" style="background: #23272b;">
       <p class="mb-1">
         <a href="https://facebook.com/share/12BZrhqTGkq/" target="_blank" rel="noopener" class="text-white me-2"><i class="fab fa-facebook"></i> Facebook</a> | 
         <a href="https://www.instagram.com/abarmacoes?igsh=MTRldHRrN210NHlmcA==" target="_blank" rel="noopener" class="text-white mx-2"><i class="fab fa-instagram"></i> Instagram</a> | 
         <a href="https://wa.me/555189059547" target="_blank" rel="noopener" class="text-white ms-2"><i class="fab fa-whatsapp"></i> WhatsApp</a>
       </p>
     </div>
-  </div>
+  </footer>
   <!-- Frameworks JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <!-- Seu JS -->
   <script src="catalog.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <script>
-fetch('produtos.json')
-  .then(response => response.json())
-  .then(produtos => {
-    const container = document.getElementById('catalogo-produtos');
-    container.innerHTML = produtos.map(produto => `
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="card h-100 shadow-sm">
-          <img src="${produto.imagem}" class="card-img-top" alt="${produto.nome}" loading="lazy">
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title">${produto.nome}</h5>
-            <p class="card-text">${produto.descricao}</p>
-            <div class="mt-auto">
-              <span class="fw-bold text-primary">${produto.preco}</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    `).join('');
-  })
-  .catch(() => {
-    document.getElementById('catalogo-produtos').innerHTML = '<p class="text-danger">Não foi possível carregar os produtos.</p>';
-  });
-</script>
 </body>
 </html>
