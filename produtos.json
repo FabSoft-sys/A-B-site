@@ -1,7 +1,7 @@
 [
   {
     "nome": "Óculos Moderno",
-    "imagem": "C:\\Users\\Desktop\\Documents\\GitHub\\A-B-site\\produtosAB\\Imagem do WhatsApp de 2025-06-24 à(s) 20.42.01_70a8d0a3.jpg",
+    "imagem": "produtosAB/Imagem do WhatsApp de 2025-06-24 à(s) 20.42.01_70a8d0a3.jpg",
     "descricao": "Armação leve, design elegante.",
     "preco": "R$ 299,00",
     "categoria": "moderno"
