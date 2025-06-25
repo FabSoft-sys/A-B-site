@@ -1,7 +1,7 @@
 [
   {
     "nome": "Óculos Moderno",
-    "imagem": "images/oculos1.jpg",
+    "imagem": "C:\\Users\\Desktop\\Documents\\GitHub\\A-B-site\\produtosAB\\Imagem do WhatsApp de 2025-06-24 à(s) 20.42.01_70a8d0a3.jpg",
     "descricao": "Armação leve, design elegante.",
     "preco": "R$ 299,00",
     "categoria": "moderno"
@@ -68,5 +68,41 @@
     "descricao": "Elegância e sofisticação em cada detalhe.",
     "preco": "R$ 399,00",
     "categoria": "elegante"
+  },
+   {
+    "nome": "Óculos Elegante",
+    "imagem": "images/oculos10.jpg",
+    "descricao": "Elegância e sofisticação em cada detalhe.",
+    "preco": "R$ 399,00",
+    "categoria": "elegante"
+  },
+  {
+    "nome": "Óculos Elegante",
+    "imagem": "images/oculos10.jpg",
+    "descricao": "Elegância e sofisticação em cada detalhe.",
+    "preco": "R$ 399,00",
+    "categoria": "elegante"
+  },
+  {
+    "nome": "Óculos Elegante",
+    "imagem": "images/oculos10.jpg",
+    "descricao": "Elegância e sofisticação em cada detalhe.",
+    "preco": "R$ 399,00",
+    "categoria": "elegante"
+  },
+  {
+    "nome": "Óculos Elegante",
+    "imagem": "images/oculos10.jpg",
+    "descricao": "Elegância e sofisticação em cada detalhe.",
+    "preco": "R$ 399,00",
+    "categoria": "elegante"
+  },
+  {
+    "nome": "Óculos Elegante",
+    "imagem": "images/oculos10.jpg",
+    "descricao": "Elegância e sofisticação em cada detalhe.",
+    "preco": "R$ 399,00",
+    "categoria": "elegante"
   }
+
 ]
