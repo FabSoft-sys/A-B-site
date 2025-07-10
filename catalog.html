@@ -23,14 +23,35 @@
   </style>
 </head>
 <body class="bg-light">
-  <header class="bg-white shadow-sm py-4 mb-4">
-    <div class="container">
-      <h1 class="text-center text-primary fw-bold animate__animated animate__fadeInDown">Catálogo de Óculos</h1>
+  <header class="bg-white shadow-sm py-4 mb-0">
+    <div class="container text-center">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm mb-3 sticky-top">
+        <div class="container justify-content-center">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="index.html#hero">Início</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.html#about">Sobre Nós</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.html#testimonials">Depoimentos</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.html#gallery">Galeria</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.html#contato">Contato</a></li>
+              <li class="nav-item"><a class="nav-link active" href="catalog.html">Catálogo</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
   </header>
   <main class="container my-4">
     <!-- Campo de busca será inserido via JS -->
     <div id="gallery" class="row g-4" aria-label="Galeria de óculos"></div>
+    <form class="d-flex mb-4" role="search">
+      <input class="form-control me-2" type="search" placeholder="Buscar óculos..." aria-label="Buscar">
+      <button class="btn btn-outline-primary" type="submit">Buscar</button>
+    </form>
   </main>
   <nav class="container mb-4 text-center">
     <a href="index.html" class="btn btn-primary"><i class="bi bi-arrow-left"></i> Voltar para a Página Inicial</a>

@@ -118,22 +118,41 @@
       color: #111 !important; /* Cor preta */
       text-shadow: none !important; /* Remove sombra, se quiser */
     }
+    .hero-logo {
+      max-width: 300px; /* ou o valor que preferir */
+      width: 100%;
+      height: auto;
+    }
   </style>
 </head>
 <body class="index-page bg-light">
   <div class="overlay"></div>
   <!-- Header -->
-  <header class="bg-white shadow-sm py-4 mb-0">
-    <div class="container text-center">
-      <nav class="navbar justify-content-center mb-2">
-        <span class="social-icons">
-          <a href="https://wa.me/555189059547" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-          <a href="https://www.instagram.com/abarmacoes?igsh=MTRldHRrN210NHlmcA==" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="https://www.facebook.com/share/12BZrhqTGkq/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-        </span>
-      </nav>
-    </div>
-  </header>
+  <!-- Menu hamburguer Bootstrap 5 -->
+<header class="bg-white shadow-sm py-4 mb-0">
+  <div class="container text-center">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm mb-3 sticky-top">
+      <div class="container justify-content-center">
+        <!-- Botão hamburguer -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Itens do menu -->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#hero">Início</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">Sobre Nós</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonials">Depoimentos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#gallery">Galeria</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            <li class="nav-item"><a class="nav-link" href="catalog.html">Catálogo</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
 
   <!-- Hero Banner -->
   <section class="hero-section d-flex align-items-center justify-content-center text-center">
