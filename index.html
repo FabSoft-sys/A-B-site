@@ -293,18 +293,18 @@
   <!-- Formulário de Contato destacado -->
   <section id="contato" class="container my-5">
     <h2 class="text-center mb-4">Fale Conosco</h2>
-    <form class="row g-3 bg-white shadow rounded p-4" style="max-width:500px;margin:auto;">
+    <form action="https://formspree.io/f/{seu-código}" method="POST" class="row g-3 bg-white shadow rounded p-4" style="max-width:500px;margin:auto;">
       <div class="col-12">
         <label for="nome" class="form-label">Nome</label>
-        <input type="text" class="form-control" id="nome" required>
+        <input type="text" class="form-control" id="nome" name="nome" required>
       </div>
       <div class="col-12">
         <label for="email" class="form-label">E-mail</label>
-        <input type="email" class="form-control" id="email" required>
+        <input type="email" class="form-control" id="email" name="email" required>
       </div>
       <div class="col-12">
         <label for="mensagem" class="form-label">Mensagem</label>
-        <textarea class="form-control" id="mensagem" rows="3" required></textarea>
+        <textarea class="form-control" id="mensagem" name="mensagem" rows="3" required></textarea>
       </div>
       <div class="col-12 text-center">
         <button type="submit" class="btn btn-primary">Enviar</button>
