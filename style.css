@@ -239,6 +239,9 @@ img {
 @media (max-width: 600px) {
   .card-title, .product-name { font-size: 1rem; }
   .card, .product-card { padding: 10px; }
+  #gallery img {
+    max-width: 60% !important;
+  }
 }
 
 /* Product Data - Óculos */
