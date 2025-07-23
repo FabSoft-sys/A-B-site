@@ -163,7 +163,9 @@ img {
 
 #gallery img {
     margin: 5px;
-    max-width: calc(33% - 10px); /* Adjust to fit three images per row */
+    max-width: 60%; /* Increased width for desktop */
+    height: 250px; /* Increased height for better visibility */
+    object-fit: cover;
     transition: transform 0.3s ease;
     cursor: pointer;
 }
