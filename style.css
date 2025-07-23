@@ -240,7 +240,7 @@ img {
   .card-title, .product-name { font-size: 1rem; }
   .card, .product-card { padding: 10px; }
   #gallery img {
-    max-width: 60% !important;
+    max-width: 80% !important;
   }
 }
 
