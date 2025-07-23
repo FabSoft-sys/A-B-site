@@ -150,8 +150,14 @@ img {
 
 .card img {
     width: 100%; /* Full width */
-    height: 100px; /* Reduced height for smaller images */
-    object-fit: cover; /* Maintain aspect ratio */
+    height: auto; /* Adjust height to maintain aspect ratio */
+    object-fit: cover; /* Fill container, crop if needed */
+}
+
+@media (max-width: 600px) {
+  .card img {
+    object-fit: contain; /* Show entire image on mobile */
+  }
 }
 
 .card:hover {
@@ -165,7 +171,7 @@ img {
     margin: 5px;
     max-width: 60%; /* Increased width for desktop */
     height: 250px; /* Increased height for better visibility */
-    object-fit: cover;
+    object-fit: contain; /* Show entire image without cropping on desktop */
     transition: transform 0.3s ease;
     cursor: pointer;
 }
