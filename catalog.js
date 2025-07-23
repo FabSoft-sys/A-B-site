@@ -57,17 +57,15 @@ fetch('produtos.json')
   });
 
 // Campo de busca
-const buscaInput = document.createElement('input');
-buscaInput.type = 'search';
-buscaInput.placeholder = 'Buscar óculos...';
-buscaInput.className = 'catalog-search';
-buscaInput.setAttribute('aria-label', 'Buscar óculos');
-document.querySelector('main').insertBefore(buscaInput, document.getElementById('gallery'));
+/* Código removido para eliminar a barra de busca dinâmica */
+// const buscaInput = document.createElement('input');
+// buscaInput.type = 'search';
+// buscaInput.placeholder = 'Buscar óculos...';
+// buscaInput.className = 'catalog-search';
+// buscaInput.setAttribute('aria-label', 'Buscar óculos');
+// document.querySelector('main').insertBefore(buscaInput, document.getElementById('gallery'));
 
-buscaInput.addEventListener('input', () => {
-  const termo = buscaInput.value;
-  renderizarCatalogo(filtrarProdutos(produtosOriginais, termo));
-});
+/* Removido listener do campo de busca pois o campo foi removido */
 
 // Exemplo de função para adicionar ao carrinho
 function adicionarAoCarrinho(produto) {
