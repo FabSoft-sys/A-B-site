@@ -55,14 +55,14 @@
     "preco": "R$ 119,99",
     "categoria": "premium"
   },
-   {
+  {
     "nome": "Referência: 8968",
     "imagem": "produtosAB/Imagem do WhatsApp de 2025-06-24 à(s) 20.57.45_341839d4.jpg",
     "descricao": "Armação infantil | cor: Azul |  tamanho: 47-16.",
     "preco": "R$ 119,99",
     "categoria": "casual"
   },
-   {
+  {
     "nome": "Referência: 8968",
     "imagem": "produtosAB/Imagem do WhatsApp de 2025-06-24 à(s) 20.58.58_456eacf4.jpg",
     "descricao": "Armação infantil | cor: Rosa |  tamanho: 47-16.",
@@ -76,7 +76,7 @@
     "preco": "R$ 119,90",
     "categoria": "elegante"
   },
-   {
+  {
     "nome": "Referência: SL1765",
     "imagem": "produtosAB/Imagem do WhatsApp de 2025-06-24 à(s) 21.33.39_57d0e169.jpg",
     "descricao": "Armação  | cor: Estampada |  tamanho: 56-17.",
@@ -110,6 +110,33 @@
     "descricao": "Armação  | cor: Várias |  tamanho: 51-21.",
     "preco": "R$ 99,00",
     "categoria": "elegante"
+  },
+  {
+    "nome": "Referência: 01",
+    "imagem": "produtosAB/01.jpg",
+    "descricao": "Armação moderna | cor: Preto | tamanho: 54-18.",
+    "preco": "R$ 120,00",
+    "categoria": "moderno"
+  },
+  {
+    "nome": "Referência: 02",
+    "imagem": "produtosAB/02.jpg",
+    "descricao": "Armação clássica | cor: Marrom | tamanho: 52-18.",
+    "preco": "R$ 110,00",
+    "categoria": "classico"
+  },
+  {
+    "nome": "Referência: 03",
+    "imagem": "produtosAB/03.jpg",
+    "descricao": "Armação retrô | cor: Dourado | tamanho: 50-16.",
+    "preco": "R$ 130,00",
+    "categoria": "retro"
+  },
+  {
+    "nome": "Referência: 04",
+    "imagem": "produtosAB/04.jpg",
+    "descricao": "Armação esportiva | cor: Azul | tamanho: 55-19.",
+    "preco": "R$ 140,00",
+    "categoria": "esportivo"
   }
-
 ]
