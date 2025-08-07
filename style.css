@@ -528,4 +528,17 @@ img {
   }
 }
 
+/* Ajuste do rodapé fixo para telas pequenas */
+@media (max-width: 600px) {
+  .dev-footer-fixed {
+    left: 50% !important;
+    bottom: 90px !important;
+    transform: translateX(-50%);
+    font-size: 0.92rem !important;
+    padding: 6px 10px !important;
+    max-width: 90vw;
+    text-align: center;
+  }
+}
+
 
