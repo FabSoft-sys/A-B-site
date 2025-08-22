@@ -160,5 +160,12 @@
     "descricao": "Título: armação  redonda | cor: Variado |Tamanho 53-16.",
     "preco": "R$ 130,00",
     "categoria": " fashion"
+  },
+  {
+    "nome": " ",
+    "imagem": "produtosAB/logotipo.jpg",
+    "descricao": "",
+    "preco": "",
+    "categoria": " fashion"
   }
 ]
