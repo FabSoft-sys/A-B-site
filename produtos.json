@@ -162,10 +162,17 @@
     "categoria": " fashion"
   },
   {
-    "nome": " ",
-    "imagem": "produtosAB/mulher_oculos.jpg",
-    "descricao": "",
-    "preco": "",
+    "nome": "Referência: 05",
+    "imagem": "produtosAB/redondo coisa fofa 2025-09-03 à(s) 11.25.45_fddd083a.jpg",
+    "descricao": "Armação oval cor tartaruga | Modelo leve e estiloso",
+    "preco": "R$ 79,99",
+    "categoria": " fashion"
+  },
+   {
+    "nome": "Referência: 06",
+    "imagem": "produtosAB/último que ela mandou 2025-09-08 à(s) 14.57.01_906f91b3.jpg",
+    "descricao": "Armação Moderna | Modelo leve e estiloso | cor: Estampada | Tamanho 56-17.",
+    "preco": "R$ 199,00",
     "categoria": " fashion"
   }
 ]
